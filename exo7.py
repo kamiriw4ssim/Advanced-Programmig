@@ -8,8 +8,8 @@ try:
     else:
         if(year %4==0):
             print("That year is a leap year.")
-            print("hello")
         else:
             print("That year is not a leap year.")
+
 except ValueError:
     print("Invalid input. Please enter a valid year.")
